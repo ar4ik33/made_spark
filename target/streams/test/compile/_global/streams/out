@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/Users/artemkugushev/Downloads/MadeProject/src/test/scala/org/apache/spark/ml/made/LinRegTest.scala:179:36: overloaded method value createDataFrame with alternatives:[0m
+[0m[[0m[31merror[0m] [0m[0m  (data: java.util.List[_],beanClass: Class[_])org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rdd: org.apache.spark.api.java.JavaRDD[_],beanClass: Class[_])org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rdd: org.apache.spark.rdd.RDD[_],beanClass: Class[_])org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rows: java.util.List[org.apache.spark.sql.Row],schema: org.apache.spark.sql.types.StructType)org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rowRDD: org.apache.spark.api.java.JavaRDD[org.apache.spark.sql.Row],schema: org.apache.spark.sql.types.StructType)org.apache.spark.sql.DataFrame <and>[0m
+[0m[[0m[31merror[0m] [0m[0m  (rowRDD: org.apache.spark.rdd.RDD[org.apache.spark.sql.Row],schema: org.apache.spark.sql.types.StructType)org.apache.spark.sql.DataFrame[0m
+[0m[[0m[31merror[0m] [0m[0m cannot be applied to (scala.collection.immutable.IndexedSeq[org.apache.spark.sql.Row], org.apache.spark.sql.types.StructType)[0m
+[0m[[0m[31merror[0m] [0m[0m  lazy val _data: DataFrame = sqlc.createDataFrame(rowData, schema)[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
