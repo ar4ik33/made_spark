@@ -1,4 +1,0 @@
-#Successful Tests
-#Sun Mar 19 11:22:59 MSK 2023
-org.apache.spark.ml.made.StandardScalerTest=1678972761339
-org.apache.spark.ml.made.StartSparkTest=1679213966635
